@@ -1,0 +1,101 @@
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" href="style.css">
+        <title>CobraBet</title>
+        
+        <style>
+        
+  
+    
+        </style>
+    </head>
+    <body> 
+        <div class="container">
+            <!-- dislay flex jusify content space-between -->
+            <div class="items-top flex">    
+                    <img class="logo" src="assets/logo_cobrabet-2x.webp" alt="">  
+            </div>
+            <div class="main-text-container flex">
+
+                <div class="order1">
+                <picture>
+                       
+                       
+                        <source media="(min-width: 1600px)" srcset="https://cobra.casino-backend.com/system/comfy/cms/files/files/000/001/045/original/characters-image_v1_desktop.webp ">
+                        <source media="(min-width: 1080px)" srcset="https://cobra.casino-backend.com/system/comfy/cms/files/files/000/001/053/original/characters-image_v2.webp">
+                        <source media="(min-width: 780px)" srcset="https://cobra.casino-backend.com/system/comfy/cms/files/files/000/001/047/original/characters-image_v1_tablet_mobile.webp"> 
+                        <img class="main-text-image" src="https://cobra.casino-backend.com/system/comfy/cms/files/files/000/001/053/original/characters-image_v2.webp" alt="">
+                </picture>
+                </div>
+
+                <div class="order2">
+                 <a href="https://sports.cobracasino.com">
+                <picture>
+                    <source media="(min-width:1080px)" srcset="assets/title+button_desktop.webp"> 
+                        <img class="main-text" src="assets/tablet/title_tablet+mobile.webp" alt="">
+                </picture>
+                </a>
+                 </div>
+            </div>
+            <div class="main-button flex">
+                 <a href="https://sports.cobracasino.com">
+                <img class="button-signup" src="assets/button.webp" alt="">
+                </a>
+              
+            </div>
+            
+            <div class="steps flex">
+                <div class="step-1 flex column">
+                    <img class="step-img" src="https://cobra.casino-backend.com//system/comfy/cms/files/files/000/000/929/original/number-1.webp"  alt="">
+                    <p class="step-1-p">open <br> an account</p>
+                </div>
+              
+            
+                <img src="https://cobra.casino-backend.com//system/comfy/cms/files/files/000/000/813/original/arrow.svg" alt="" class="arrow">
+    
+                <div class="step2 flex column">
+                    <img class="step-img" src="https://cobra.casino-backend.com//system/comfy/cms/files/files/000/000/930/original/number-2.webp" alt="">
+                    <p class="step-2-p">easy <br> deposit</p>
+                </div>
+               
+               
+                <img src="https://cobra.casino-backend.com//system/comfy/cms/files/files/000/000/813/original/arrow.svg" alt="" class="arrow">
+                <div class="step-3 flex column">
+                    <img class="step-img" src="https://cobra.casino-backend.com//system/comfy/cms/files/files/000/000/931/original/number-3.webp" alt="">
+                    <p class="step-3-p">get up to <br> €100 free bets</p>
+                </div>
+                
+               
+            </div>
+    
+           <div class="bottom-logos">
+                <a href="https://www.askgamblers.com/online-casinos/reviews/cobra-casino">
+                    <img class="askgamblers" src="https://cobra.casino-backend.com//system/comfy/cms/files/files/000/000/827/original/AskGamblers-logologo.svg" alt="">
+                </a>
+                <a href="https://casinodaddy.com/online-casinos/cobra-casino/">
+                    <img class="casino-daddy" src="https://cobra.casino-backend.com//system/comfy/cms/files/files/000/000/828/original/Casino-daddy-logo.svg" alt="">
+                </a>
+               
+            
+            </div>
+        <div class="slider-bottom">
+            <div class="logo-slider logo-slider--other" ng-init="payments = [
+            'visa', 'maestro', 'mastercard', 'wirecard', 'neteller', 'skrill', 'ecopayz', 'yandex', 'devcode-interac', 'devcode-einterac', 'paysafecard', 'idebit', 'instadebit', 'rapid-transfer', 'neosurf', 'devcode_sticpay', 'devcode-siru', 'devcode-venuspoint', 'devcode-bankintl', 'purplepay', 'alfaclick', 'bank_transfer', 'bitcoin_coinspaid', 'bitcoincash_coinspaid', 'ethereum_coinspaid', 'litecoin_coinspaid', 'coinspaid'
+        ]">
+            <div class="logo-slider__list" data-uix-bxslider="hideControlOnEnd: true, infiniteLoop: false, maxSlides:30, adaptiveHeight:true, touchEnabled: false, moveSlides: 1">
+                <div class="logo-slider__item" ng-repeat="item in payments" data-notify-when-repeat-finished>
+                    <img ng-src="{{$root.CDN.SERVER}}/logos/payments/white/{{item}}.svg"/>
+                </div>
+            </div>
+        </div>
+    
+    
+        </div>
+        </div>
+    </body>
+    </html>
+    

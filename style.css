@@ -1,0 +1,436 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+html,
+body {
+  background-image: url("https://cobra.casino-backend.com/system/comfy/cms/files/files/000/001/049/original/background_tablet_mobile.webp") !important;
+  background-size: cover;
+  background-attachment: fixed; 
+  background-position: center;
+
+}
+
+.container {
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+  padding: 0px !important;
+}
+
+p {
+  margin: 0 0 0px !important;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  align-content:center;
+}
+
+
+.items-top
+{
+  margin:24px 0 -15px 0;
+}
+
+.logo
+{
+  width:142px;
+  height:36px;
+}
+
+.main-text-container
+{
+  flex-direction: column;
+}
+
+
+.main-text-image
+{
+  height:218px;
+}
+
+.main-text
+{
+ width:289px; 
+}
+
+
+.main-button
+{
+  flex-direction:column;
+  gap:24px;
+  margin-bottom:54px;
+}
+.button-signup
+{
+width:189px;
+height:74px;
+}
+
+.column
+{
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.league
+{
+ 
+  width:248px;
+  height:46px;
+}
+
+.steps
+{
+  background-color:rgba(10, 11, 13, 0.6);
+  min-height:72px;
+
+}
+
+.step-img , .step-img, .step-img
+{
+  width:24px;
+  height:24px;
+}
+
+.step-1 , .step-2, .step-3
+{
+  width:100px;
+  height:24px;
+  padding:10px 0 10px 0;
+}
+
+
+.step-1-p , .step-2-p , .step-3-p
+
+{
+ 
+font-family: Futura PT;
+font-size: 12px;
+font-style: italic;
+font-weight: 450;
+line-height: 12px;
+letter-spacing: 0.05em;
+text-align: center;
+color:white;
+padding-top:5px;
+text-transform: uppercase;
+
+}
+.arrow
+{
+  width:20px;
+  height:12px;
+}
+
+.bottom-logos
+{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap:8px;
+  margin-bottom:24px;
+  margin-top:24px;
+ 
+}
+
+.askgamblers , .casino-daddy , .gambling-judge
+{
+  width: 122px;
+  height: 36px;
+}
+
+.slider-bottom
+{
+  height:60px;
+  background-color: black;
+  padding-bottom: 4px;
+}
+
+@media(min-width:375px)
+
+{
+    .main-text-image
+    {
+        height:90vw;
+        padding:0 16px 0 16px;
+
+    }
+
+}
+
+@media(min-width:700px)
+{
+
+  .steps
+  {
+    gap:40px;
+  }
+}
+
+@media(min-width:780px)
+{
+    .main-text-image{
+        height:60vw;
+    }
+}
+
+
+@media(min-width:800px)
+{
+
+ 
+
+  
+  .main-text
+  {
+  width:450px;
+  height:216px;
+  }
+
+ 
+  
+.step-img , .step-img, .step-img
+{
+  width:56px;
+  height:56px;
+}
+
+.step-1 , .step-2, .step-3
+{
+  width:220px;
+  height:106px;
+  padding:10px 0 10px 0;
+}
+
+.steps{
+  padding:10px 0 10px 0;
+}
+
+.step-1-p , .step-2-p , .step-3-p
+
+{
+ 
+  font-family: Futura PT;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 450;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  
+color:white;
+text-transform: uppercase;
+
+}
+
+
+  .arrow
+  {
+    width:56px;
+    height:40px;
+  }
+
+  .button-signup
+  {
+    width:295px;
+    height:118px;
+  }
+
+  .items-top
+  {
+    justify-content:center;
+    margin:0px 0px -81px 0px;
+    
+  }
+
+  .logo
+  {
+    Width:247px;
+    Height:64px;
+    margin-top:32px;
+  }
+
+  .league
+  {
+    width:324px;
+    height:60px;
+    z-index: 1;
+    position: absolute;
+    top:7%;
+    right:-12%;
+    transform: translate(-50%, -50%);
+  }
+
+  .askgamblers , .casino-daddy , .gambling-judge
+{
+  width:190px;
+  height:56px;
+}
+}
+
+@media(min-width:1080px)
+{
+
+  .main-text-container
+  {
+    flex-direction:row;
+    order:2;
+    
+  }
+
+body
+  {
+      background-image: url("assets/background_desktop_v2.webp")!important;
+  }
+
+  .order1
+  {
+      order:1;
+  }
+
+  .main-text-image
+  {
+    max-width:50vw;
+    height:auto;
+    padding-right:2rem;
+  }
+  .main-text
+  {
+        padding-left:5rem;
+        width:90%;
+        height:auto;
+        max-width:860px;
+  }
+
+  .button-signup
+  {
+  display: none;
+  }
+
+ .main-button
+ {
+   margin-bottom:0;
+ }
+
+  .league
+  {
+    top: 9%;
+  }
+
+  .logo{
+    Width: 247px;
+    Height: 64px;
+    margin-top:58px;
+  }
+
+  .items-top
+  {
+    justify-content: flex-start;
+    width:85%;
+    margin-inline:auto;
+  }
+
+
+  
+
+  .order2
+  {
+    margin-top:118px;
+  }
+
+  
+  }
+
+ 
+
+
+
+@media(min-width:1320px)
+{
+  .league
+  {
+    right: 1%!important;;
+  }
+
+  .main-text
+  {
+  padding-left:5rem;
+  width:640px;
+  max-width:860px;
+  }
+
+  .steps
+  {
+    gap:96px;
+  }
+
+ 
+   
+}
+
+@media(min-width:1577px)
+{
+    .items-top
+  {
+    justify-content: flex-start;
+    width:75%;
+    margin-inline:auto;
+  }
+}
+
+
+@media(min-width:1650px)
+{
+  .league
+  {
+    top:9%;
+  }
+
+  
+ 
+}
+
+@media(min-width:1920px)
+{
+    body
+    {
+        background-image: url("assets/background_desktop_v1.webp")!important;
+    }
+
+  
+}
+
+
+
+
+@media(min-width:2200px)
+{
+    .items-top
+    {
+      justify-content: flex-start;
+      width:70%;
+      margin-inline:auto;
+    }
+
+  .steps
+  {
+    margin-top:1rem;
+  }
+ 
+}
+
+
+
